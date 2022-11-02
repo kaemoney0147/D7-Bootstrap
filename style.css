@@ -1,10 +1,63 @@
 body{
     background-color: black;
+    /* background-image: url(./assest/music-background.jpg); */
 }
 audio{
     width:180px;
     height: 30px;
 }
-section audio{
+#play-list audio{
     width: 100%;
+  
+}
+.navbar{
+    background-color: white;
+}
+section .row{
+    background-color: coral;
+}
+.card{
+    background-color: orange;
+}
+table td:hover{
+    color: coral;
+    cursor: pointer;
+    background-color: white;
+}
+span img{
+    background-color: white;
+}
+span{
+color: white;
+}
+h1{
+    text-align: center;
+    color: orange;
+}
+h1 span{
+    color: red;
+}
+/* #worst-album{
+    background-color: red;
+    
+} */
+#worst-album-image img{
+    padding: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+#footer .row {
+    background-color: red;
+    justify-content: center;
+    text-align: center;
+}
+#footer .row img{
+    padding: 10px;
+    background-color: white;
+}
+.card-title{
+    color: white;
+}
+.card-text a{
+    text-decoration: none;
 }
