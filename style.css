@@ -61,3 +61,68 @@ h1 span{
 .card-text a{
     text-decoration: none;
 }
+.jumbotron{
+    background-size: cover;
+    text-align: center;
+    animation: fadein 2s;
+    
+}
+.jumbotron p{
+    color: white;
+    font-size: 50px;
+}
+@keyframes fadein {
+    from { 
+        opacity: 0;
+    }
+    to   { 
+        opacity: 1; 
+    }
+}
+.movie-card h5{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.movie-card p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    color: red;
+}
+.badge{
+    position: absolute;
+    top:-0.25rem;
+    left: -0.30rem;
+}
+.badge img{
+    width: 70px;
+    height: 50px;
+}
+.movie-card{
+    position: relative;
+}
+.wrapper{
+    padding: 50px;
+    text-align: start;
+    color: red;
+}
+.table img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.tr-table1{
+    background-color: coral;
+}
+.tr-table2{
+    background-color: chocolate;
+}
+.tr-table{
+    background-color: brown;
+}
+/* .button{
+    width: 200px;
+    height: 300px;
+} */
