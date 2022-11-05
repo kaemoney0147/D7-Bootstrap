@@ -12,7 +12,7 @@
 <body>
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="https://beta.music.apple.com/us/replay"><img src="./assest/music.svg" width="50px" height="50px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" onclick="" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
@@ -26,7 +26,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    Music
                   </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="">Album</a>
@@ -37,7 +37,7 @@
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search for music" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search for artist,almbums!" aria-label="Search">
                 <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
               </form>
             </div>
@@ -48,7 +48,32 @@
             <p> Limitless music recording and discovery talent.<br>platform forartites,tastrmaker,labels and fans.</p>
             <a class="btn btn-dark btn-lg" href="#" role="button">Learn more</a>
           </div>
-          <h1 class="mt-5">S.O<span>RECORD LABEL</span></h1>
+         <div id="trending-bar" class="container">
+          <div class="trending">
+            <svg class="feed-bar__title-icon feed-bar__title-icon--graph u-text-icon" width="16" height="14" viewBox="0 0 16 14"><path fill-rule="nonzero" d="M11.15.126l1.805 1.845L9.11 5.904 5.96 2.68.123 8.66l1.11 1.136L5.96 4.96l3.15 3.223 4.963-5.068 1.804 1.845V.126z"></path><path d="M13.251 5.592h2.052V14H13.25zM10.42 7.946h2.052V14H10.42zM7.549 8.87H9.6V14H7.549zM4.677 7.231h2.051V14H4.677zM1.805 10.132h2.051V14h-2.05z"></path></svg>
+            <h4>Now Trending</h4>
+          </div>
+          <div class="trending-1">
+            Genre:
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" class="rounded-pill">
+                  Music
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="">Hip HOP</a>
+                  <a class="dropdown-item" href="#">R&B</a>
+                  <a class="dropdown-item" href="#">Classic</a>
+                  <a class="dropdown-item" href="#">Pop</a>
+                  <a class="dropdown-item" href="#">Gospel</a>
+                  <a class="dropdown-item" href="#">Rock</a>
+                  <a class="dropdown-item" href="#">Afrosounds</a>
+                  <a class="dropdown-item" href="#wrapper">Playlists</a>
+                </div>
+            </ul>
+
+          </div>
+         </div>
     <div class="container mt-5">
         <div class="row row-cols-4">
           <div class="mb-3 col-12 col-sm-6 col-md-4 col-xl-3">
@@ -61,10 +86,30 @@
                     </h5>
                   <p class="card-text">Total Songs: 101<br>
                   S.O Record Punjabi<br>Release year:2022<br>Last updated: October 30 2022</p>
+                </div>
                   <audio controls> 
                     <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
                 </audio>
+                
+                <div class="badge">
+                  <img src="./assest/listen-on-apple-music-badge.png">
                 </div>
+              </div>
+              </div>
+          </div>
+          <div class="mb-3 col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+              <div class="movie-card">
+                <img id='shyeimage' src="./assest/sss.jpeg" class="img-thumbnail" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">KILOBADE
+                    </h5>
+                  <p class="card-text">Total Songs: 101<br>
+                  by S.O Record<br>Release year:2022<br>Last updated: October 30 2022</p>
+                </div>
+                  <audio controls> 
+                    <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
+                </audio>
                 <div class="badge">
                   <img src="./assest/listen-on-apple-music-badge.png">
                 </div>
@@ -81,10 +126,31 @@
                     </h5>
                   <p class="card-text">Total Songs: 101<br>
                   S.O Record Punjabi<br>Release year:2022<br>Last updated: October 30 2022</p>
+                </div>
                   <audio controls> 
                     <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
                 </audio>
+                <div class="badge">
+                  <img src="./assest/listen-on-apple-music-badge.png">
                 </div>
+              </div>
+              </div>
+          </div>
+          
+          <div class="mb-3 col-12 col-sm-6 col-md-4 col-xl-3">
+            <div class="card">
+              <div class="movie-card">
+                <img src="./assest/asake.jpg" class="img-thumbnail" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">Fireboy DML & Asake
+                    Bandana
+                    </h5>
+                  <p class="card-text">Total Songs: 101<br>
+                  S.O Record Punjabi<br>Release year:2022<br>Last updated: October 30 2022</p>
+                </div>
+                  <audio controls> 
+                    <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
+                </audio>
                 <div class="badge">
                   <img src="./assest/listen-on-apple-music-badge.png">
                 </div>
@@ -101,10 +167,10 @@
                     </h5>
                   <p class="card-text">Total Songs: 101<br>
                   S.O Record Punjabi<br>Release year:2022<br>Last updated: October 30 2022</p>
+                </div>
                   <audio controls> 
                     <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
                 </audio>
-                </div>
                 <div class="badge">
                   <img src="./assest/listen-on-apple-music-badge.png">
                 </div>
@@ -121,50 +187,10 @@
                     </h5>
                   <p class="card-text">Total Songs: 101<br>
                   S.O Record Punjabi<br>Release year:2022<br>Last updated: October 30 2022</p>
+                </div>
                   <audio controls> 
                     <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
                 </audio>
-                </div>
-                <div class="badge">
-                  <img src="./assest/listen-on-apple-music-badge.png">
-                </div>
-              </div>
-              </div>
-          </div>
-          <div class="mb-3 col-12 col-sm-6 col-md-4 col-xl-3">
-            <div class="card">
-              <div class="movie-card">
-                <img src="./assest/asake.jpg" class="img-thumbnail" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title ">Fireboy DML & Asake
-                    Bandana
-                    </h5>
-                  <p class="card-text">Total Songs: 101<br>
-                  S.O Record Punjabi<br>Release year:2022<br>Last updated: October 30 2022</p>
-                  <audio controls> 
-                    <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
-                </audio>
-                </div>
-                <div class="badge">
-                  <img src="./assest/listen-on-apple-music-badge.png">
-                </div>
-              </div>
-              </div>
-          </div>
-          <div class="mb-3 col-12 col-sm-6 col-md-4 col-xl-3">
-            <div class="card">
-              <div class="movie-card">
-                <img src="./assest/asake.jpg" class="img-thumbnail" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title ">Fireboy DML & Asake
-                    Bandana
-                    </h5>
-                  <p class="card-text">Total Songs: 101<br>
-                  S.O Record Punjabi<br>Release year:2022<br>Last updated: October 30 2022</p>
-                  <audio controls> 
-                    <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
-                </audio>
-                </div>
                 <div class="badge">
                   <img src="./assest/listen-on-apple-music-badge.png">
                 </div>
@@ -181,10 +207,10 @@
                     </h5>
                   <p class="card-text">Total Songs: 20<br>
                   by Asake<br>Release year:2022<br>Last updated: October 30 2022</p>
+                </div>
                   <audio controls> 
                     <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
                 </audio>
-                </div>
                 <div class="badge">
                   <img src="./assest/listen-on-apple-music-badge.png">
                 </div>
@@ -200,10 +226,10 @@
                     </h5>
                   <p class="card-text">Total Songs: 200<br>
                   by Kizz Daniel<br>Release year:2022<br>Last updated: October 30 2022</p>
+                </div>
                   <audio controls> 
                     <source src="https://www.xclusiveloaded.com/wp-content/uploads/2022/09/Fireboy_DML_Ft_Asake_-_Bandana_Instrumental_.mp3" type="audio/mpeg">
-                </audio>
-                </div>
+                  </audio>
                 <div class="badge">
                   <img src="./assest/listen-on-apple-music-badge.png">
                 </div>
@@ -211,93 +237,115 @@
               </div>
           </div>
         </div>
-        
       </div>
+      <div id="trendingbar" class="container">
+        <div class="trending">
+          <svg class="feed-bar__title-icon feed-bar__title-icon--fire u-text-icon" width="39.45" height="49.68" viewBox="0 0 39.45 49.68"><path d="M26.46 10.38c.5 1.07 5.53 11.36 1.22 10.54C23.38 20.1 17 7.56 17.8 0c0 0-8.14 6.08-6.64 15.02 1.5 8.94 3.63 15.54-2 15.32-5.66-.22-2.44-7.1-1.26-10.4-9.42 5.57-8 14.9-7.55 18 .38 2.57 1.57 8.57 8 11 9.8 2.15 13.64-14.08 13.3-19.52 2.67 3.15 4.4 7.57 4.05 10.5-.7 5.7-5.5 10.22-.9 9.72 6.95-.76 12.07-4.12 13.98-12.7 2.08-9.36-.3-20.86-12.32-26.56"></path></svg>
+          <h4>Top Songs</h4>
+        </div>
+        <div class="trending-1">
+          Genre:
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" class="rounded-pill">
+                Music
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="">Hip HOP</a>
+                <a class="dropdown-item" href="#">R&B</a>
+                <a class="dropdown-item" href="#">Classic</a>
+                <a class="dropdown-item" href="#">Pop</a>
+                <a class="dropdown-item" href="#">Gospel</a>
+                <a class="dropdown-item" href="#">Rock</a>
+                <a class="dropdown-item" href="#">Afrosounds</a>
+                <a class="dropdown-item" href="#wrapper">Playlists</a>
+              </div>
+          </ul>
+        </div>
+       </div>
+       
+      <div class="container mt-3" id="worst-album" >
+        <h3 class="mb-0" >Overrated Tracks</h3>
+        <div class="row">
+          <div class="col-8" id="worst-album-image">
+            <img src="./assest/Davido.jpg" style="width: 500px; height:300px">
+          </div>
+          <div class="col-16 col-sm-6 col-md-4 col-lg-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero perspiciatis quia praesentium possimus accusamus ab alias obcaecati tempora, eum laudantium expedita quisquam minima cumque necessitatibus magni iure hic numquam eaque.
+          </div>
+          </div>
+          </div>
       <div class="container">
-      <section class="wrapper">
-        <h3>ALBUM</h3>
-        <table class="table table-striped table-dark">
+      <section id="wrapper">
+        <h3>Tracklists</h3>
+        <table id='tablebody'class="table table-striped table-dark">
           <thead>
             <tr class="tr-table">
               <th scope="col">#</th>
-              <th scope="col">Photo</th>
               <th scope="col">Artist</th>
-              <th scope="col">Track</th>
               <th scope="col">Tittle</th>
+              <th scope="col">Track</th>
               <th scope="col">Duration</th>
-              <th scope="col">Rating</th>
+              <th scope="col">Remove album</th>
               
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td><img src="./assest/Davido.jpg"></td>
+              <td>1</td>
               <td>Davido</td>
               <td>OBO</td>
               <td>Omo baba olowo</td>
               <td>3h 40m</td>
-              <td><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"></td>
-              <td><button type="button" class="btn btn-danger">Delete</button></td>
+              <td><button type="button" class="btn btn-dark" onclick="SomeDeleteRowFunction()">Delete</button></td>
             </tr>
             <tr class="tr-table1">
-              <th scope="row">2</th>
-              <td><img src="./assest/wizkid.jpg"></td>
+              <td>2</td>
               <td>Kizz Daniel & EMPIRE</td>
               <td>Cough</td>
               <td>Cough</td>
               <td>1h 50m</td>
-              <td><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"></td>
-              <td><button type="button" class="btn btn-danger">Delete</button></td>
+              <td><button type="button" class="btn btn-dark" onclick="SomeDeleteRowFunction()">Delete</button></td>
             </tr>
             <tr>
               <tr class="tr-table2">
-                <th scope="row">3</th>
-                <td><img src="./assest/burna.jpeg"></td>
+                <td>3</td>
                 <td>Fireboy DML & Asake</td>
                 <td>Banana</td>
                 <td>Banana</td>
                 <td>2h 40m</td>
-                <td><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"></td>
-                <td><button type="button" class="btn btn-danger">Delete</button></td>
+                <td><button type="button" class="btn btn-dark" onclick="SomeDeleteRowFunction()">Delete</button></td>
               </tr>
           </tbody>
         </table>
       </section>
+      <button id="newtrack-btn" type="button" data-toggle="modal" data-target="#exampleModal">
+        Add track</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add New Track</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <input type="number" placeholder="#" id="number">
+      <input type="text" placeholder="Tittle" id="tittle">
+      <input type="text" placeholder="Duration" id="duration">
+      <input type="text" placeholder="Artist" id="artist">
+      <input type="text" placeholder="Track" id="track">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="addtrackbtton">Save changes</button>
+      </div>
     </div>
-     
-          <div class="container mt-4" id="worst-album" >
-            <h3>Overrated Tracks</h3>
-            <div class="row">
-              <div class="col-16 col-sm-6 col-md-4 col-lg-3">
-                <table class="table table-striped table-dark bg-secondary">
-                    <!-- <thead>
-                      <tr>
-                        <th scope="col">Worse Tracks</th>
-                      </tr>
-                    </thead> -->
-                    <tbody>
-                      <tr>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Wizkid:Money & Love</td>
-                      </tr>
-                      <tr>
-                        <td>Burna Boy:Breakfast</td>
-                      </tr>
-                      <tr>
-                        <td>Exsens</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <span>Rating:<img src="./assest/star-2.svg"><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"><img src="./assest/star-2.svg"></span>
-              </div>
-              <div class="col-6" id="worst-album-image">
-                <img src="./assest/Davido.jpg" style="width: 500px; height:300px">
-              </div>
-              </div>
-              </div>
+  </div>
+</div>
+    </div>
               <div class="container">
                 <div class="row no-gutters">
                 <h2>Tapestry</h2>
@@ -328,8 +376,8 @@
                     </div>
                     </div>
                     <div id="footer" class="container">
-                        <div class="row mt-4">
-                            <p>Author: Abiodun Akinlotan<br>
+                        <div class="row mt-4 text-white">
+                            <h4>Follow us</h4>
                                 <a><img src="./assest/facebook.svg"></a>
                                 <a><img src="./assest/instagram.svg"></a>
                                 <a><img src="./assest/twitter.svg"></a>

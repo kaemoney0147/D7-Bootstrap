@@ -1,6 +1,5 @@
 body{
-    background-color: black;
-    /* background-image: url(./assest/music-background.jpg); */
+    background-color: brown;
 }
 audio{
     width:180px;
@@ -13,16 +12,45 @@ audio{
 .navbar{
     background-color: white;
 }
-section .row{
-    background-color: coral;
+#trending-bar{
+background-color: white;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+margin-top: -4rem;
 }
-.card{
-    background-color: orange;
+#trendingbar{
+    background-color: white;
+display: flex;
+justify-content: space-between;
+padding: 10px;
 }
-table td:hover{
-    color: coral;
+.trending-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.trending-1 .nav-link{
+    background-color: black;
+    color: brown;
+    border-radius: 150px;
+    width: 100px;
+    text-align: center;
+}
+.trending{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.movie-card:hover img{
+    color: black;
     cursor: pointer;
     background-color: white;
+    box-shadow: 5px 5px 8px;
+}
+table td:hover{
+    color: green;
+    cursor: pointer;
 }
 span img{
     background-color: white;
@@ -32,22 +60,19 @@ color: white;
 }
 h1{
     text-align: center;
-    color: orange;
-}
-h1 span{
     color: red;
 }
-/* #worst-album{
-    background-color: red;
-    
-} */
+
 #worst-album-image img{
     padding: 0.25rem;
     max-width: 100%;
     height: auto;
 }
+#worst-album{
+    background-color: white;
+}
 #footer .row {
-    background-color: red;
+    background-color: black;
     justify-content: center;
     text-align: center;
 }
@@ -56,7 +81,7 @@ h1 span{
     background-color: white;
 }
 .card-title{
-    color: white;
+    color: black;
 }
 .card-text a{
     text-decoration: none;
@@ -70,6 +95,7 @@ h1 span{
 .jumbotron p{
     color: white;
     font-size: 50px;
+    position: relative;
 }
 @keyframes fadein {
     from { 
@@ -91,6 +117,7 @@ h1 span{
     overflow: hidden;
     color: red;
 }
+
 .badge{
     position: absolute;
     top:-0.25rem;
@@ -103,11 +130,7 @@ h1 span{
 .movie-card{
     position: relative;
 }
-.wrapper{
-    padding: 50px;
-    text-align: start;
-    color: red;
-}
+
 .table img{
     border-radius: 50%;
     height: 50px;
@@ -122,7 +145,19 @@ h1 span{
 .tr-table{
     background-color: brown;
 }
-/* .button{
-    width: 200px;
-    height: 300px;
-} */
+#shyeimage{
+    height: 150px;
+    width: 300px;
+}
+#newtrack-btn{
+    background-color: black;
+    color: white;
+}
+
+
+#newtrack-btn:hover {
+    box-shadow: 10px 5px 5px gray;
+    opacity: 1;
+    transition : opacity 0.7 ease-in-out;
+     background-color: gray;
+}
